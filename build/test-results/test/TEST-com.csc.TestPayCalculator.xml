@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.csc.TestPayCalculator" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-09-09T03:44:01" hostname="KYLESPC" time="0.005">
+  <properties/>
+  <testcase name="itCalculatesThePayForOneHourWorked()" classname="com.csc.TestPayCalculator" time="0.001"/>
+  <testcase name="itCalculatesThePayForTenHoursWorked()" classname="com.csc.TestPayCalculator" time="0.0"/>
+  <testcase name="itCalculatesThePayForFiftyHoursWorked()" classname="com.csc.TestPayCalculator" time="0.001"/>
+  <testcase name="itCalculatesThePayForThirtyHoursWorked()" classname="com.csc.TestPayCalculator" time="0.0"/>
+  <testcase name="itCalculatesThePayForFiveHoursWorked()" classname="com.csc.TestPayCalculator" time="0.0"/>
+  <testcase name="itCalculatesThePayForTwentyHoursWorked()" classname="com.csc.TestPayCalculator" time="0.001"/>
+  <testcase name="itCalculatesThePayForFifteenHoursWorked()" classname="com.csc.TestPayCalculator" time="0.0"/>
+  <testcase name="itCalculatesThePayForFortyFiveHoursWorked()" classname="com.csc.TestPayCalculator" time="0.001"/>
+  <testcase name="itCalculatesThePayForFortyHoursWorked()" classname="com.csc.TestPayCalculator" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

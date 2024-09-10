@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.csc.TestPayDeductions" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-09-09T03:44:01" hostname="KYLESPC" time="0.018">
+  <properties/>
+  <testcase name="itCalculatesTheSocSecTaxForFiveHoursWorked()" classname="com.csc.TestPayDeductions" time="0.01"/>
+  <testcase name="itCalculatesTheSocSecTaxForZeroHoursWorked()" classname="com.csc.TestPayDeductions" time="0.0"/>
+  <testcase name="itCalculatesTheFedTaxForFiveHoursWorked()" classname="com.csc.TestPayDeductions" time="0.0"/>
+  <testcase name="itCalculatesTheFedTaxForZeroHoursWorked()" classname="com.csc.TestPayDeductions" time="0.0"/>
+  <testcase name="itCalculatesTheFedTaxForOneHoursWorked()" classname="com.csc.TestPayDeductions" time="0.001"/>
+  <testcase name="itCalculatesTheFedTaxForFortyHoursWorked()" classname="com.csc.TestPayDeductions" time="0.0"/>
+  <testcase name="itCalculatesTheStTaxForFiveHoursWorked()" classname="com.csc.TestPayDeductions" time="0.0"/>
+  <testcase name="itCalculatesTheStTaxForZeroHoursWorked()" classname="com.csc.TestPayDeductions" time="0.001"/>
+  <testcase name="itCalculatesTheSocSecTaxForFortyHoursWorked()" classname="com.csc.TestPayDeductions" time="0.0"/>
+  <testcase name="itCalculatesTheStTaxForOneHoursWorked()" classname="com.csc.TestPayDeductions" time="0.001"/>
+  <testcase name="itCalculatesTheSocSecTaxForOneHoursWorked()" classname="com.csc.TestPayDeductions" time="0.001"/>
+  <testcase name="itCalculatesTheStTaxForFortyHoursWorked()" classname="com.csc.TestPayDeductions" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
