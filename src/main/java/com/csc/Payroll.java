@@ -10,7 +10,6 @@ public class Payroll {
   public static void main(String[] args) {
     double rate = 16.78;
     double unionFee = 10.00;
-
     Scanner scanner = new Scanner(System.in);
     System.out.println("Welcome to the Payroll Calculation Program\n");
     System.out.println("How many hours did you work this week? ");
