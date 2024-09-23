@@ -16,8 +16,16 @@ public class Payroll {
     double hours = scanner.nextInt();
     System.out.println("How many dependents do you have? ");
     int dependents = scanner.nextInt();
-    System.out.println("What is your hourly rate? ");
-    rate = scanner.nextDouble();
+    while(true) {
+      System.out.println("What is your hourly rate? ");
+      rate = scanner.nextDouble();
+      if(rate < 0) {
+        System.out.println("Invalid pay. It must be positive");
+      }
+      else {
+        break;
+      }
+    } 
 
     scanner.close();
 
