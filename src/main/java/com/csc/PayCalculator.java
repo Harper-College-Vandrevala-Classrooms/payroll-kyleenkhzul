@@ -1,12 +1,12 @@
 package com.csc;
 
 public class PayCalculator {
-    public double calculateGrossPay(double hours) {
+    public double calculateGrossPay(double hours, double rate) {
         if(hours > 40) {
-          return 40 * 16.78 + 1.5 * 16.78 * (hours % 40);
+          return 40 * rate + 1.5 * rate * (hours % 40);
         }
         else {
-          return hours * 16.78;
+          return hours * rate;
         }
       }
     

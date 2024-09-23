@@ -8,7 +8,7 @@ public class Payroll {
 
   // Driver Program
   public static void main(String[] args) {
-    double rate = 16.78;
+    double rate;
     double unionFee = 10.00;
     Scanner scanner = new Scanner(System.in);
     System.out.println("Welcome to the Payroll Calculation Program\n");
@@ -16,10 +16,12 @@ public class Payroll {
     double hours = scanner.nextInt();
     System.out.println("How many dependents do you have? ");
     int dependents = scanner.nextInt();
+    System.out.println("What is your hourly rate? ");
+    rate = scanner.nextDouble();
 
     scanner.close();
 
-    double grossPay = payCalculator.calculateGrossPay(hours);
+    double grossPay = payCalculator.calculateGrossPay(hours, rate);
     double netPay = payCalculator.calculateNetPay(grossPay, dependents);
 
     System.out.println("Payroll Stub: ");
